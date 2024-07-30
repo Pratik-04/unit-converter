@@ -94,3 +94,99 @@ function submit12(){
     document.getElementById("post12").innerHTML = ` 
     <strong>Feet to meter= ${m12a}</strong>`  
 }
+
+function submit13(){
+    let m13 = document.getElementById("kgtog").value;
+    let m13a = m13*1000;
+
+    document.getElementById("post13").innerHTML = ` 
+    <strong>Kilogram to grams= ${m13a}</strong>` 
+}
+
+function submit14(){
+    let m14 = document.getElementById("kgtomg").value;
+    let m14a = m14*1000000;
+
+    document.getElementById("post14").innerHTML = ` 
+    <strong>Kilogram to Milligram= ${m14a}</strong>` 
+}
+
+function submit15(){
+    let m15 = document.getElementById("kgtop").value;
+    let m15a = m15*2.20462;
+
+    document.getElementById("post15").innerHTML = ` 
+    <strong>Kilogram to Pound= ${m15a}</strong>` 
+}
+
+function submit16(){
+    let m16 = document.getElementById("gtokg").value;
+    let m16a = m16/1000;
+
+    document.getElementById("post16").innerHTML = ` 
+    <strong>Gram to Kilogram= ${m16a}</strong>` 
+}
+
+function submit17(){
+    let m17 = document.getElementById("gtomg").value;
+    let m17a = m17*1000;
+
+    document.getElementById("post17").innerHTML = ` 
+    <strong>Gram to Milligram= ${m17a}</strong>` 
+}
+
+function submit18(){
+    let m18 = document.getElementById("gtop").value;
+    let m18a = m18/453.592;
+
+    document.getElementById("post18").innerHTML = ` 
+    <strong>Gram to Pound= ${m18a}</strong>` 
+}
+
+function submit19(){
+    let m19 = document.getElementById("mgtokg").value;
+    let m19a = m19/100000;
+
+    document.getElementById("post19").innerHTML = ` 
+    <strong>Milligram to Kilogram= ${m19a}</strong>` 
+}
+
+function submit20(){
+    let m20 = document.getElementById("mgtog").value;
+    let m20a = m20/1000;
+
+    document.getElementById("post20").innerHTML = ` 
+    <strong>Milligram to Gram= ${m20a}</strong>` 
+}
+
+function submit21(){
+    let m21 = document.getElementById("mgtop").value;
+    let m21a = m21/453592;
+
+    document.getElementById("post21").innerHTML = ` 
+    <strong>Gram to Pound= ${m21a}</strong>` 
+}
+
+function submit22(){
+    let m22 = document.getElementById("ptokg").value;
+    let m22a = m22/2.20462;
+
+    document.getElementById("post22").innerHTML = ` 
+    <strong>Pound to Kilogram= ${m22a}</strong>` 
+}
+
+function submit23(){
+    let m23 = document.getElementById("ptog").value;
+    let m23a = m23*453.592;
+
+    document.getElementById("post23").innerHTML = ` 
+    <strong>Pound to Gram= ${m23a}</strong>` 
+}
+
+function submit24(){
+    let m24 = document.getElementById("ptomg").value;
+    let m24a = m24*453592;
+
+    document.getElementById("post24").innerHTML = ` 
+    <strong>Pound to Milligram= ${m24a}</strong>` 
+}
