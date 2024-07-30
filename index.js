@@ -80,7 +80,7 @@ function submit10(){
 }
 
 function submit11(){
-    let m11 = document.getElementById("ftom").value;
+    let m11 = document.getElementById("itok").value;
     let m11a = m11/39370.1;
 
     document.getElementById("post11").innerHTML = ` 
@@ -88,7 +88,7 @@ function submit11(){
 }
 
 function submit12(){
-    let m12 = document.getElementById("ftom").value;
+    let m12 = document.getElementById("itof").value;
     let m12a = m12/3.12;
 
     document.getElementById("post12").innerHTML = ` 
